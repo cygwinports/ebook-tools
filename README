@@ -1,0 +1,69 @@
+ebook-tools
+------------------------------------------
+Tools for accessing and converting various ebook file formats.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libxml2-2.6.32-1
+  libzip1-0.8-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080523-2
+  cmake-2.4.8-3
+  cygport-0.3.13-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.23a-2
+
+Canonical website:
+  http://sourceforge.net/projects/ebook-tools/
+
+Canonical download:
+  http://downloads.sourceforge.net/ebook-tools/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ebook-tools-0.1.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ebook-tools-0.1.1-X.cygport all
+
+This will create:
+  /usr/src/ebook-tools-0.1.1-X-src.tar.bz2
+  /usr/src/ebook-tools-0.1.1-X.tar.bz2
+  /usr/src/libepub-devel-0.1.1-X.tar.bz2
+  /usr/src/libepub0-0.1.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(ebook-tools)
+  /usr/bin/einfo.exe
+  /usr/bin/lit2epub
+  /usr/share/doc/ebook-tools-0.1.1/INSTALL
+  /usr/share/doc/ebook-tools-0.1.1/LICENSE
+  /usr/share/doc/ebook-tools-0.1.1/README
+  /usr/share/doc/ebook-tools-0.1.1/TODO
+
+(libepub0)
+  /usr/bin/cygepub-0.dll
+
+(libepub-devel)
+  /usr/include/epub.h
+  /usr/include/epub_shared.h
+  /usr/lib/libepub.dll.a
+
+------------------
+
+Port Notes:
+
+----- version 0.1.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
