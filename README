@@ -3,18 +3,19 @@ ebook-tools
 Tools for accessing and converting various ebook file formats.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libxml2-2.6.32-1
-  libzip1-0.8-1
+  cygwin-1.7.0-49
+  libgcc1-4.3.2-2
+  libxml2-2.7.3-10
+  libzip1-0.9-10
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080523-2
-  cmake-2.4.8-3
-  cygport-0.3.13-1
-  gcc-core-3.4.4-3
-  make-3.81-1
-  pkg-config-0.23a-2
+  binutils-20080624-2
+  cmake-2.6.4-10
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
+  pkg-config-0.23b-10
 
 Canonical website:
   http://sourceforge.net/projects/ebook-tools/
@@ -44,10 +45,9 @@ Files included in the binary packages:
 (ebook-tools)
   /usr/bin/einfo.exe
   /usr/bin/lit2epub
-  /usr/share/doc/ebook-tools-0.1.1/INSTALL
-  /usr/share/doc/ebook-tools-0.1.1/LICENSE
-  /usr/share/doc/ebook-tools-0.1.1/README
-  /usr/share/doc/ebook-tools-0.1.1/TODO
+  /usr/share/doc/ebook-tools/LICENSE
+  /usr/share/doc/ebook-tools/README
+  /usr/share/doc/ebook-tools/TODO
 
 (libepub0)
   /usr/bin/cygepub-0.dll
@@ -61,8 +61,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 0.1.1-1 -----
-Initial release for Cygwin.
+----- version 0.1.1-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

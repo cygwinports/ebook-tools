@@ -1,4 +1,4 @@
 category: Text
-requires: bash cygwin libepub0
+requires: bash cygwin libgcc1 libepub0
 sdesc: "Ebook reader and conversion apps"
 ldesc: "Tools for accessing and converting various ebook file formats"
