@@ -1,5 +1,0 @@
-category: Text
-requires: libgcc1 libxml2 libzip1
-external-source: ebook-tools
-sdesc: "Ebook reader and conversion library (runtime)"
-ldesc: "Tools for accessing and converting various ebook file formats"
